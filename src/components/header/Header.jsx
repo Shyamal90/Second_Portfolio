@@ -16,7 +16,7 @@ const Header = () => {
         <HeaderSocial/>
 
         <div className="me">
-          <img src="./assets/bg-2.jpg" alt="me" />
+          <img src="./assets/bg-2.jpg" alt="me" width="100vw"/>
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
