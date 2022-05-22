@@ -23,6 +23,8 @@
     overflow: hidden;
     transform: rotate(-10deg);
     transition: var(--transition);
+    /* border: 1px solid red; */
+    /* width: 80%; */
 }
 
 .about__me-image:hover{
@@ -87,6 +89,25 @@
     .about__container p {
         margin: 1rem 0 1.5rem;
     }
+
+    .about__me-image{
+        width: 100%;
+    }
+
+    .about__me{
+        width: 30%;
+        /* aspect-ratio: 1/1; */
+        border-radius: 2rem;
+        background: linear-gradient(
+            45deg,
+            transparent,
+            var(--color-primary),
+            transparent
+        );
+        display: grid;
+        place-items: center;
+        /* border: 1px solid rgb(224, 28, 28); */
+    }
 }
 
 
@@ -95,7 +116,8 @@
 @media screen and (max-width:600px) {
     .about__me{
         width: 65%;
-        margin: 0 auto 3rem;
+        margin: 5rem auto 3rem;
+
     }
 
     .about__carts{
